@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.tamanho2{
+    flex: 2;
+    background-color: yellow;
+}
+
+.tamanho6{
+    background-color: red;
+    flex: 2;
+}
+
+input[type="text"]{
+    background-color: green;
+    color: aquamarine;
+    border: solid;
+    border-radius: 50px;
+   
+}
+
+input[type="submit"]{
+    background-color: aquamarine;
+    color: green;
+    border: solid;
+    border-radius: 50px;
+    margin-left: 30px;
+    
+}
